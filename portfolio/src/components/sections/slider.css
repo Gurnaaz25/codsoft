@@ -1,0 +1,19 @@
+.slider-section {
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-card {
+  transform-origin: center;
+  backface-visibility: hidden;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .skill-card {
+    margin-bottom: 1rem;
+  }
+}
